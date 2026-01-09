@@ -1,0 +1,10 @@
+# Nmap 7.98 scan initiated Thu Jan  8 23:01:04 2026 as: /usr/lib/nmap/nmap -sn -oN 06_icmp_scan.txt 192.168.x.0/24
+Nmap scan report for 192.168.x.x
+Host is up (0.0029s latency).
+MAC Address: AA:BB:CC:DD:EE:01 (Huawei Technologies)
+Nmap scan report for 192.168.x.x
+Host is up (0.00055s latency).
+MAC Address: AA:BB:CC:DD:EE:01 (Intel Corporate)
+Nmap scan report for 192.168.x.x
+Host is up.
+# Nmap done at Thu Jan  8 23:01:07 2026 -- 256 IP addresses (3 hosts up) scanned in 3.52 seconds
