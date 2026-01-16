@@ -1,0 +1,40 @@
+Date: 16-01-2026
+Environment: VMware Workstation – Kali Linux
+Browser Used: Firefox
+Tool Used: Wireshark
+
+Objective:
+To capture and analyze basic HTTP traffic and understand how a normal web request looks at packet level.
+
+Website Visited:
+http://www.example.com
+
+Interface Used:
+eth0 (primary network interface)
+
+Packets Observed:
+
+1. DNS Query to resolve example.com  
+2. TCP Three-Way Handshake  
+   - SYN  
+   - SYN-ACK  
+   - ACK  
+3. HTTP GET Request  
+4. HTTP Response 200 OK  
+
+Filter Used in Wireshark:
+http
+
+Key Observations:
+
+- The browser first generated a DNS request to find the IP address of example.com.
+- After receiving the IP, a TCP handshake was performed.
+- HTTP protocol was used because the site was accessed using http:// instead of https://.
+- The GET request contained the path “/” indicating the homepage request.
+- Server responded with status code 200 OK, meaning request was successful.
+
+Learning Outcome:
+
+- Understood how normal HTTP traffic appears in Wireshark.
+- Learned to apply basic filters.
+- Identified relationship between DNS, TCP, and HTTP protocols.

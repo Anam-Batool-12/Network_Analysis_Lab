@@ -1,0 +1,19 @@
+Netid State  Recv-Q Send-Q                   Local Address:Port  Peer Address:PortProcess                            
+udp   UNCONN 0      0                              0.0.0.0:52144      0.0.0.0:*    users:(("python3",pid=1992,fd=8)) 
+udp   UNCONN 0      0                       192.168.100.28:3702       0.0.0.0:*    users:(("python3",pid=1992,fd=9)) 
+udp   UNCONN 0      0                      239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=1992,fd=7)) 
+udp   UNCONN 0      0                                    *:42266            *:*    users:(("python3",pid=1992,fd=11))
+udp   UNCONN 0      0      [fe80::65c0:ddab:cd7a:f7f]%eth0:3702          [::]:*    users:(("python3",pid=1992,fd=12))
+udp   UNCONN 0      0                       [ff02::c]%eth0:3702          [::]:*    users:(("python3",pid=1992,fd=10))
+tcp   LISTEN 0      1024                           0.0.0.0:8834       0.0.0.0:*                                      
+tcp   LISTEN 0      1024                              [::]:8834          [::]:*                                      
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:8834            0.0.0.0:*               LISTEN      1003/nessusd        
+tcp6       0      0 :::8834                 :::*                    LISTEN      1003/nessusd        
+udp        0      0 0.0.0.0:52144           0.0.0.0:*                           1992/python3        
+udp        0      0 192.168.100.28:3702     0.0.0.0:*                           1992/python3        
+udp        0      0 239.255.255.250:3702    0.0.0.0:*                           1992/python3        
+udp6       0      0 :::42266                :::*                                1992/python3        
+udp6       0      0 fe80::65c0:ddab:cd:3702 :::*                                1992/python3        
+udp6       0      0 ff02::c:3702            :::*                                1992/python3        
