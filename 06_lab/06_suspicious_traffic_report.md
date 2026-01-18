@@ -1,7 +1,6 @@
 LAB 6 – SUSPICIOUS TRAFFIC ANALYSIS REPORT
 
 Date: 16-01-2026  
-Analyst: [Your Name]  
 Environment: Kali Linux  
 Tools Used: tcpdump, Wireshark, Nmap  
 Capture File: lab6_traffic.pcap  
